@@ -1,0 +1,195 @@
+{
+  "source_image": "239.webp",
+  "source_lang": "ja",
+  "space": "NerdCoderZero/manga-translator",
+  "note": "Pulled live via gradio_client on 2026-09-09. Translation wording is not deterministic run-to-run (temperature=1.0 in translate_text_nemotron), but bounds/source_text come from the same detection pass on the same source image and are stable.",
+  "regions": [
+    {
+      "page": 1,
+      "source_text": "店長！",
+      "translation": "Manager!",
+      "bounds": [
+        1047,
+        102,
+        1102,
+        216
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "大輝君の調教もちゃんと．．．",
+      "translation": "Make sure you train Daiki-kun right, too…",
+      "bounds": [
+        182,
+        110,
+        280,
+        281
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "私はご奉仕慣れてるし",
+      "translation": "I'm used to serving, so...",
+      "bounds": [
+        498,
+        126,
+        605,
+        270
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "いい！",
+      "translation": "Nice!",
+      "bounds": [
+        601,
+        301,
+        617,
+        311
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "私も残ります！！",
+      "translation": "I'm staying too!!",
+      "bounds": [
+        678,
+        317,
+        765,
+        489
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "そっそうだ！！",
+      "translation": "Y-yeah!!",
+      "bounds": [
+        184,
+        329,
+        272,
+        485
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "「おしり」っ！！",
+      "translation": "Butt!!",
+      "bounds": [
+        1106,
+        565,
+        1203,
+        948
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "試してみたいでしょうッ！？",
+      "translation": "You wanna try it, huh?!",
+      "bounds": [
+        153,
+        792,
+        353,
+        1122
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "「おしり」も使えるようにしました私！！",
+      "translation": "I can use my butt now too!",
+      "bounds": [
+        937,
+        916,
+        1050,
+        1106
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "．．．",
+      "translation": "...",
+      "bounds": [
+        226,
+        1163,
+        348,
+        1310
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "あこれ",
+      "translation": "Ah, this?",
+      "bounds": [
+        503,
+        1190,
+        612,
+        1313
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "それでも",
+      "translation": "But still",
+      "bounds": [
+        646,
+        1186,
+        860,
+        1363
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "混乱してるのか？",
+      "translation": "You confused?",
+      "bounds": [
+        933,
+        1208,
+        1007,
+        1351
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "何があろうと．．．",
+      "translation": "Whatever happens…",
+      "bounds": [
+        275,
+        1488,
+        377,
+        1606
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "大丈夫だから今日は帰りなさいアイル",
+      "translation": "It's fine, go home today, Aile.",
+      "bounds": [
+        668,
+        1514,
+        803,
+        1687
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "だから",
+      "translation": "So",
+      "bounds": [
+        1194,
+        1547,
+        1245,
+        1628
+      ]
+    },
+    {
+      "page": 1,
+      "source_text": "みすて．．．",
+      "translation": "I messed up…",
+      "bounds": [
+        1050,
+        1647,
+        1106,
+        1725
+      ]
+    }
+  ]
+}

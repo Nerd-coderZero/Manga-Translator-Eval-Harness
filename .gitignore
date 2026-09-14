@@ -1,0 +1,14 @@
+# Python environment / bytecode
+.venv/
+__pycache__/
+*.pyc
+
+# Real manga page images -- copyrighted scans, not project deliverables.
+# Sourced by whoever runs the harness (see README/DESIGN.md); not tracked here.
+test_images_ja/
+test_images_zh/
+02.webp
+239.webp
+8.webp
+download.png
+page_0000_out.png

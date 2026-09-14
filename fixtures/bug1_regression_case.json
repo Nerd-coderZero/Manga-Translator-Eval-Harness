@@ -1,0 +1,38 @@
+{
+  "source_doc": "docs/BUGS.md, BUG-1 verification section (Manga Translator project)",
+  "provenance_note": "Only two boxes and the page-level median/area statistics from BUG-1's own real verification run were preserved in the docs: the dropped box (real page box index 14, bounds (654,1458)-(888,1729), area 63414, recorded as 38.4x the page median with 7 contained boxes) and one correctly-kept area outlier (box index 35, bounds (1124,585)-(1187,932), area 21861, 13.2x median, 0 contained boxes). The full 58-box list from that page was never recorded in BUGS.md, only these two boxes plus the aggregate result (57 of 58 kept). This fixture uses both real boxes at their real recorded coordinates, plus three placeholder small boxes sized near the real recorded median (~1652px2) and positioned fully inside box 14's real footprint, needed only to satisfy the filter's min_contained_count>=3 rule since the seven real inner boxes' own coordinates do not exist in any recovered document. This is a regression tripwire on the shipped filter's behavior, not a literal historical replay -- see the harness design notes for why an exact replay is not possible from what was preserved.",
+  "expected_dropped": ["box14_real"],
+  "expected_kept": ["box35_real", "inner1_synthetic", "inner2_synthetic", "inner3_synthetic"],
+  "boxes": [
+    {
+      "id": "box14_real",
+      "provenance": "real",
+      "bounds": [654, 1458, 888, 1729],
+      "area_check": 63414
+    },
+    {
+      "id": "box35_real",
+      "provenance": "real",
+      "bounds": [1124, 585, 1187, 932],
+      "area_check": 21861
+    },
+    {
+      "id": "inner1_synthetic",
+      "provenance": "synthetic_scaffold",
+      "bounds": [670, 1470, 710, 1510],
+      "area_check": 1600
+    },
+    {
+      "id": "inner2_synthetic",
+      "provenance": "synthetic_scaffold",
+      "bounds": [720, 1470, 760, 1510],
+      "area_check": 1600
+    },
+    {
+      "id": "inner3_synthetic",
+      "provenance": "synthetic_scaffold",
+      "bounds": [770, 1470, 810, 1510],
+      "area_check": 1600
+    }
+  ]
+}
